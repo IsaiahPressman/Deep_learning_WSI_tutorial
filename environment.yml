@@ -1,0 +1,13 @@
+name: Deep_learning_WSI_tutorial
+channels:
+  - defaults
+dependencies:
+  - python=3.7
+  - torchaudio==0.7.2
+  - torchvision==0.8.2
+  - cudatoolkit=11.0
+  - pytorch==1.7.1
+  - notebook
+  - tqdm
+  - pixman
+prefix: /home/isaiah/miniconda3/envs/Deep_learning_WSI_tutorial
