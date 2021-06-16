@@ -6,7 +6,7 @@ conda create -n "$ENV_NAME" python=3.7 -y
 conda activate "$ENV_NAME"
 
 conda install pytorch==1.7.1 torchvision==0.8.2 torchaudio==0.7.2 cudatoolkit=11.0 -c pytorch -y
+conda install matplotlib pandas -y
 conda install -c conda-forge notebook -y
-conda install -c anaconda tqdm -y
 pip install openslide-python
-conda install -c anaconda pixman -y
+conda install -c anaconda tqdm pixman==0.40.0 -y
