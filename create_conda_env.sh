@@ -9,4 +9,4 @@ conda install pytorch==1.7.1 torchvision==0.8.2 torchaudio==0.7.2 cudatoolkit=11
 conda install matplotlib==3.* pandas==1.* -y
 conda install -c conda-forge notebook==6.* -y
 pip install openslide-python==1.1.1
-conda install -c anaconda tqdm==4.* pixman==0.40.0 -y
+conda install -c anaconda scipy==1.* tqdm==4.* pixman==0.40.0 -y
